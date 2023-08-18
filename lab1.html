@@ -1,43 +1,81 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta name="keyword" content="Asian-Site" />
+    <meta name="description" content="This is the asian search" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <title>Asian Search</title>
     <style>
-        table, tr, td{
-            border: 5px solid black;
-        }
+      table,
+      td {
+        border: 1px solid black;
+      }
+
+      table {
+        width: 70vw;
+      }
+
+      #main {
+        text-align: center;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+      }
+      #sec {
+        width: 10vw;
+      }
     </style>
-</head>
-<body>
-    <!-- commits added for commit -->
-
-    <table>
-    <tr>
-        <td>
-            <div style ="display: flex; flex-direction: column; gap: 25px; justify-content: center; align-items: center; margin-top: 20px; margin-right: 900px;">
-                <img src="1.jpeg" alt="Dua Lipa" , style="display: block;", height=200vh>
-            </div>
-                
+  </head>
+  <body style="display: flex; justify-content: center">
+    <div>
+      <table>
+        <tr>
+          <td id="main">
             <div>
-                <input type="text" id ="">
-                <button>search</button>
-            </div>
-        </td>
-        <td>
-          Recent Searches
-          <ul>
-            <li>Sanis</li>
-            <li>Raccoon</li>
-          </ul>
-        </td>
-    </tr>
-    </table>
-    
+              <h1>Welcome to Asian Search</h1>
+              <img
+                src="1.jpeg"
+                alt="hamro logo"
+                height="140px"
+                loading="lazy"
+              />
+              <br />
+              <br />
 
-</body>
+              <div
+                style="
+                  display: flex;
+                  gap: 3px;
+                  justify-content: center;
+                  margin-top: 10px;
+                "
+              >
+                <input
+                  style="
+                    height: 4vh;
+                    width: 23vw;
+                    border-radius: 20px;
+                    border: 0.3px solid #999;
+                  "
+                  type="text"
+                />
+
+                <button>Search</button>
+              </div>
+            </div>
+          </td>
+          <td id="sec">
+            <ul>
+              <h2>Recent Searches</h2>
+              <li>ram</li>
+              <li>sam</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
